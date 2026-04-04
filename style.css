@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kolker+Brush&family=Meie+Script&family=Oregano:ital@0;1&family=Permanent+Marker&family=Rock+Salt&display=swap');
+.whole-body{
+    background-image: url(https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg);
+    background-size: cover;
+}
+.nav-logo{
+    height: 250px;
+}
+.right-coner{
+    color: white;
+    font-size: 70px;
+    margin: 20px;
+}
+.right-coner:hover{
+    color: rgb(8, 239, 8);
+}
+/* font-family: "Rock Salt", cursive; */
+.anchor{
+    margin-left: auto;
+}
+.mass-section{
+   
+    height: 85vh;
+    /* border: 2px solid red; */
+}
+.box-left{
+    
+    /* border: 2px solid red; */
+    color: white;
+    font-family: "Oregano", cursive;
+   height: 1250px;
+   text-align: right;
+}
+.box-right{
+   
+
+    /* border: 2px solid red; */
+    color: white;
+
+   height: 1250px;
+}
+.photo{
+   padding-left: 100px;
+   border-radius: 1000px;
+}
+.main-para{
+    font-size: 80px;
+    font-family: "Oregano", cursive;
+}
+/* font-family: "Rock Salt", cursive; */
+
+.what-h1{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+    
+}
+.para-h1{
+    color: white;
+    text-align: center;
+    font-family: "Oregano", cursive;
+    font-size: 45px;
+
+}
+
+.what-h2{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+}
+.para-h2{
+    color: white;
+    text-align: center;
+    font-family: "Oregano", cursive;
+    font-size: 45px;
+
+}
+.what-h3{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+}
+.para-h3{
+    color: white;
+    text-align: center;
+    font-family: "Oregano", cursive;
+    font-size: 45px;
+}
+.ho{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+
+}
+.card{
+background-color: transparent;
+border: 10px solid white;
+}
+.card:hover{
+    border: 10px solid rgb(4, 255, 4);
+}
+.hi-1{
+ border-radius: 20px;
+}
+.hi-2{
+    height: 1370px;
+    border-radius: 20px;
+}
+.hh-1{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+}
+.para-hi-1{
+    color: white;
+    font-family: "Oregano", cursive;
+    font-size: 45px;
+    justify-content: start;
+}
+.con-us{
+    color: white;
+    text-align: center;
+    font-family:"Rock Salt", cursive;
+    font-size: 80px;
+}
+.con-para{
+    color: white;
+    font-family: "Oregano", cursive;
+    font-size: 50px;
+    text-align: center;  
+}
+.con-img{
+    border-radius: 100px;
+    margin: 20px;
+}
+.con-img:hover{
+    transform: scale(1.1);
+}
