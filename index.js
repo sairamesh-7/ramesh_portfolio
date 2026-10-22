@@ -1,17 +1,17 @@
-// Navbar background toggle on scroll
+// Sticky navbar background effect on scroll
 window.addEventListener('scroll', function () {
     const nav = document.querySelector('nav');
     if (nav) {
         if (window.scrollY > 50) {
             nav.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
-            nav.style.transition = '0.5s';
+            nav.style.transition = '0.5s ease';
         } else {
             nav.style.backgroundColor = 'transparent';
         }
     }
 });
 
-// Scroll animation for cards
+// Card entrance animations using IntersectionObserver
 const cards = document.querySelectorAll('.card');
 
 if (cards.length > 0) {
@@ -35,7 +35,7 @@ if (cards.length > 0) {
     });
 }
 
-// Auto-close mobile navbar on link click
+// Automatically close mobile menu dropdown on link selection
 const navLinks = document.querySelectorAll('.nav-link');
 const navCollapse = document.querySelector('.navbar-collapse');
 
